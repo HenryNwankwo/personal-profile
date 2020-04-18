@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+main{
+    width:100%;
+    height:auto;
+    background: #efefef;
+}
+.row1{
+    display:flex;
+    flex-direction: column;
+    background-image: url(img1.jpg);
+    width: 100%;
+    height:700px; 
+    justify-content: center;
+    align-items:center;
+}
+.firstDisplay p:first-child{    
+    font-size: 24pt;
+    font-family: monospace;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.firstDisplay p:last-child{    
+    font-size: 14pt;
+    font-family: monospace;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height:auto;
+    background: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 1px 4px 6px #d3d3d3;     
+}
+.profileInfo{
+    margin: 20px;
+}
+
+.profileInfo p{
+    font-family: calibri;
+    font-size: 14pt;    
+}
+.profileIntro img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid #f2aa4c;
+    margin: 20px;
+}
+.profileIntro{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    margin-left: 80px;
+}
+.dob{
+    margin-left: 28px;
+}
+.address{
+    margin-left: 65px;
+}
+.state{
+    margin-left: 17px;
+}
+.hometown{
+    margin-left: 42px;
+}
+.occupation{
+    margin-left: 42px;
+}
+.slackID{
+    margin-left: 72px;
+}
+.profileInfo h3{
+    font-family: segoe UI;
+    font-size: 20pt;
+    font-weight: 200;
+    color
+}
+.profileInfo hr{
+    
+    margin: 30px 0px 30px 0px;
+}
+
+
+
+
+footer{
+    background: #f2aa4c;
+    width: 100%;
+    height:auto;
+}
