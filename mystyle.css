@@ -45,7 +45,7 @@ main{
     box-shadow: 1px 4px 6px #d3d3d3;
 }
 .profileInfo{
-    margin: 20px;
+    margin: 0px 30px;
 }
 
 .profileInfo p{
@@ -112,6 +112,13 @@ main{
     margin: 22px 0px;
 
 }
+ h1{
+    font-family: segoe UI;
+    margin-top: 20px;
+    color: #f2aa4c;
+    font-weight: 300;
+
+}
 .formInput{
     padding:2px 8px 2px 8px;
     border-radius:5px;
@@ -124,9 +131,54 @@ main{
 .inputField{
     margin: 8px;
 }
+.hobbiesAndInterest{
+    margin-bottom: 30px;
+}
 
 footer{
     background: #f2aa4c;
     width: 100%;
     height:auto;
+}
+.sendButton button{
+    width: 100px;
+    height:40px;
+    margin-top:5px;
+    background: #000;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sendButton button:hover{
+    border: 3px solid #000;
+    background:#f2aa4c;
+}
+@media screen and (max-width: 1200px){
+    .formElem{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+    .sendButton button{
+    width: 410px;
+
+
+}
+    .formInput{
+
+    width: 400px;
+
+}
+    .profileIntro{
+    display: flex;
+    flex-direction: column;
+}
+    .profileInfo p{
+    font-family: calibri;
+    font-size: 13pt;
+}
+
 }
